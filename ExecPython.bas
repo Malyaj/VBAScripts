@@ -1,4 +1,4 @@
-Attribute VB_Name = "NewMacros"
+'All python code has to be on a single line in order to execute properly.
 Public Function ShellRun(sCmd As String) As String
 
     'Run a shell command, returning the output as a string
@@ -23,12 +23,13 @@ Public Function ShellRun(sCmd As String) As String
     ShellRun = s
 
 End Function
+                    
 Sub python()
 
     Dim pythonLocation As String
     pythonLocation = "C:\Python34\python.exe"
     Dim pythonCode As String
-    'write your python code here:
+    'Write your python code here:
     pythonCode = "print('Hello world!')"
     Dim command As String
     command = pythonLocation + " -c " + """" + pythonCode + """"
