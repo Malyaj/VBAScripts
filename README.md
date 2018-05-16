@@ -1,5 +1,5 @@
 # VBAScripts
-Collection of useful VBA scripts
+Collection of useful VBA scripts. This could be useful during a pentest for a situation where you have remote desktop access to a pc with MS Office installed, but for whatever reason you can't open a command prompt or run any arbitrary code.
 
 # Scripts
 
