@@ -1,4 +1,3 @@
-Attribute VB_Name = "NewMacros"
 Public Function ShellRun(sCmd As String) As String
 
     'Run a shell command, returning the output as a string
@@ -24,7 +23,7 @@ Public Function ShellRun(sCmd As String) As String
 
 End Function
 
-Sub commandtest()
+Sub ExecCmd()
     
     Dim command As String
     command = "ping 8.8.8.8"
