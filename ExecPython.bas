@@ -24,7 +24,7 @@ Public Function ShellRun(sCmd As String) As String
 
 End Function
                     
-Sub python()
+Sub ExecPython()
 
     Dim pythonLocation As String
     pythonLocation = "C:\Python34\python.exe"
