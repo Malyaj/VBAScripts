@@ -29,8 +29,8 @@ Sub ExecPython()
     Dim pythonLocation As String
     pythonLocation = "C:\Python34\python.exe"
     Dim pythonCode As String
-    'Write your python code here:
-    pythonCode = "print('Hello world!')"
+    'Write your python code here: e.g. print('Hello world')
+    pythonCode = InputBox("Python code:")
     Dim command As String
     command = pythonLocation + " -c " + """" + pythonCode + """"
     MsgBox ShellRun("cmd.exe /c " + command)
