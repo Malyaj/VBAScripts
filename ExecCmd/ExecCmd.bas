@@ -26,7 +26,10 @@ End Function
 Sub ExecCmd()
     
     Dim command As String
-    command = "ping 8.8.8.8"
-    MsgBox ShellRun("cmd.exe /c " + command)
+    While True
+        command = InputBox("Command:")
+        If command = "exit" Then End
+        MsgBox ShellRun("cmd.exe /c " + command)
+    Wend
 
 End Sub
