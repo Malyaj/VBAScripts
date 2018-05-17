@@ -10,8 +10,8 @@ Collection of useful VBA scripts. This could be useful during a pentest for a si
 
 # Scripts
 
-### [ExecCmd](https://github.com/joseph-dillon/VBAScripts/blob/master/ExecCmd.bas)
+### [ExecCmd](https://github.com/joseph-dillon/VBAScripts/tree/master/ExecCmd)
 Execute a cmd command and return the output in a message box.
 
-### [ExecPython](https://github.com/joseph-dillon/VBAScripts/blob/master/ExecPython.bas)
+### [ExecPython](https://github.com/joseph-dillon/VBAScripts/tree/master/ExecPython)
 Execute python code (all code has to be formatted onto a single line). If Python isn't installed on the PC, a portable installation of Python can be used instead as the location of `python.exe` can be specified.
